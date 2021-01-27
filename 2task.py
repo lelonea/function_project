@@ -20,10 +20,12 @@ def pl(*args):
     b = args
     ind = 0
     res = 0
-    for i in range(1, b[-1], 1):
-       res += b[ind] * b[-1]
-
+    for i in b:
+        res += b[ind] * b[-1]
+        ind += 1
     print(res)
+    print(b)
+    return b
 
 pl(1, 2, 5)
 
