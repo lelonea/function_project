@@ -1,6 +1,8 @@
-def hello(a):
-    b = 'Hello' + a
-    print('Hello, ', f'{a}')
-    return b
-hello('Nastya')
+def func(name):
+    print(f'Hello, {name}')
+    return
+names = ['Hanna', 'Harry', 'Lila', 'Jack', 'Mila']
+
+for i in names:
+    func(i)
 
